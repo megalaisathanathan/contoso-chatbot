@@ -24,8 +24,8 @@ jobs:
         run: npm install
 
       - name: Build project
-        run: |
-          export NODE_OPTIONS=--openssl-legacy-provider
+        run: |          
+          npm run build
           npm run build
 
       - name: Deploy to Azure Static Web Apps
