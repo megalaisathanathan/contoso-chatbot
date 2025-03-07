@@ -39,8 +39,5 @@
   "devDependencies": {
     "react-scripts": "^5.0.1",
     "webpack": "^5.98.0"
-  },
-  "engines": {
-  "node": "16.x"
-}
+  }  
 }
