@@ -35,6 +35,6 @@
     "node": ">=18.20.7"
   },
   "devDependencies": {
-    "react-scripts": "^5.0.1"
+    "react-scripts": "^5.0.0"
   }
 }
