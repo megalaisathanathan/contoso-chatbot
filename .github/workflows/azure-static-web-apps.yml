@@ -26,6 +26,7 @@ jobs:
         with:
           azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN }}
           repo_token: ${{ secrets.GITHUB_TOKEN }}
-          action: "upload"
-          app_location: "/" # Path to React app
-          output_location: "build"
+           action: "upload"
+           app_location: "/"  # Ensure this is correct
+           api_location: "api"  # If using Azure Functions, specify the correct directory
+           output_location: "build"
